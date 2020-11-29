@@ -1,0 +1,127 @@
+body{ margin:20px;
+background-image: url(https://images.unsplash.com/photo-1547468731-cc0bd2f11351?ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80); }
+img {border-radius: 5px;
+}
+h1{
+	margin: 5px;
+	color: #d9d9d9;
+  background-color: rgba(255,255,255,0.1);
+  letter-spacing: 20px;
+  display: inline-block;
+  border-radius: 5px;
+  text-shadow: 4px 4px grey;
+  border-style: dotted; border-width: 5px;
+  font-family: Monoton;
+}
+
+h3{margin:1px;
+  color:#d9d9d9;
+text-decoration: underline;
+font-family: Neucha;
+}
+
+#tovkep {margin-left: 50px;}
+
+p{ color:#d9d9d9;
+
+margin-left: 1px;
+background-color:rgba(255,255,255,0.1);
+display: inline-block;
+border-radius: 5px;
+font-family: Neucha;
+
+}
+ul, nav {
+  margin: 5px;
+  color: #d9d9d9;
+  list-style-type: none;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  font-family: Neucha;
+  ;
+
+}
+li {
+  padding: 0 45px;
+  display: inline-block;
+
+}
+
+a{color:#d9d9d9;
+}
+
+
+main{
+	min-height: 1px;
+}
+
+
+table{margin:48px;}
+
+
+@charset "utf-8";
+
+@media only screen and (max-width: 319px ){
+  body{
+  display: none;
+  }
+}
+@media only screen and (min-width: 480px){}
+
+
+*,*::before,*::after {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif; 
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 15.5rem;
+}
+
+#tabloo { margin-left: 250px;
+  margin-right: 5px;
+  width: 299px;
+  height: 213px;
+}
+
+#zsulii {margin-left: 250px;
+  margin-right: 5px;
+  width: 230px;
+height: 215px;
+}
+#osztalykep {margin-left: 250px;
+  margin-right: 5px;
+  height: 215px;
+width: 429px;
+}
+#lo {margin-left: 250px;
+  margin-right: 5px;
+  height: 215px; 
+width:258px;
+}
+
+#elso {background-color: rgba(255,255,255,0.5);
+color:black;
+font-family: Neucha;
+border-radius: 5px;
+}
+
+#masodik{background-color: rgba(255,255,255,0.5);
+color:black;
+font-family: Neucha;
+border-radius: 5px;
+}
+
+#harmadik {background-color: rgba(255,255,255,0.5);
+color:black;
+font-family: Neucha;
+border-radius: 5px;}
